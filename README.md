@@ -29,6 +29,8 @@ Antes de começar, certifique-se de que possui o **Node.js** e o **npm** instala
    git clone <linktree>
    cd <linktree>
 2. Instale as dependências:
-   ```npm install
+   ```
+   npm install
 3. Inicie a aplicação::
-   ```npm start
+   ```
+   npm start
