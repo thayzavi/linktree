@@ -15,7 +15,7 @@ const App = () => {
   ];
 
   return (
-    <div className="bg-gray min-h-screen flex flex-col items-center rjustify-center p-10 font-sans">
+    <div className="bg-black min-h-screen flex flex-col items-center justify-center p-4 sm:p-8 font-sans text-white">
 
       <div className="flex flex-col items-center mb-10 text-white">
         <img
