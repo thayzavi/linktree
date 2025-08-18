@@ -1,36 +1,12 @@
-# Linktree em React
+# React + Vite
 
-Uma página de links **personalizável e minimalista**, construída com **React** e estilizada com **Tailwind CSS**. Ideal para centralizar todos os seus perfis e projetos online em um único local.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## ✨ Funcionalidades
-- **Design Minimalista e Moderno:** Foco na experiência do usuário com um layout limpo.  
-- **Totalmente Responsivo:** Adapta-se perfeitamente a dispositivos móveis e desktops.  
-- **Fácil de Personalizar:** Altere informações de perfil e links de forma rápida e simples.  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🛠️ Tecnologias Utilizadas
-- [React](https://reactjs.org/) — Biblioteca JavaScript para construção de interfaces.  
-- [Tailwind CSS](https://tailwindcss.com/) — Framework CSS para criação de layouts rápidos e responsivos.  
-
----
-
-## 📦 Pré-requisitos
-Antes de começar, certifique-se de que possui o **Node.js** e o **npm** instalados na sua máquina.  
-
----
-
-## 🚀 Instalação e Execução
-
-1. Clone o repositório:
-   ```bash
-   git clone <linktree>
-   cd <linktree>
-2. Instale as dependências:
-   ```
-   npm install
-3. Inicie a aplicação::
-   ```
-   npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
